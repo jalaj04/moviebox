@@ -1,5 +1,5 @@
 # MovieBox
-Moviebox is a place where one can find about what are my top 5 favourite TV shows and Movies. I have given my honest reviews about the movies everything with my own ratings compared with the IMDb ratings. One can click on any card and would be directed to IMDb to know more about the movie/show.
+Moviebox is a place where one can find about my top 5 favourite TV shows and Movies. I have given my honest review about the movies and everything with my own ratings compared with the IMDb ratings. One can click on any card and would be directed to IMDb to know more about the movie/show.
 
 This is my first real project using HTML and CSS. 
 
