@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg1.jpg);
+    color: #e4e6eb;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  background-color: rgba(20, 22, 28, 0.75);       /* Slightly lighter surface than background */
+  border: 1px solid #262a34;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  color:inherit;
+}
+
+.item img {
+  width: 110px;
+  aspect-ratio: 2 / 3;             /* Keeps every poster the exact same height/shape */
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+header, main{
+    max-width: 720px;
+    margin: 0 auto; 
+}
+
+header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #232730;
+    padding-bottom: 20px;
+}
+
+.details{
+    color: #c2d1ee;
+}
